@@ -1,0 +1,6 @@
+Pytorch=1.4.0
+pandas
+scikit-image
+nltk
+python-dateutil
+lightgbm

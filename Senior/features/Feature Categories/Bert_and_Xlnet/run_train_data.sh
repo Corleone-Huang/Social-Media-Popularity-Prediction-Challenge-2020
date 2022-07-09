@@ -1,0 +1,11 @@
+python bert_xlnet_feature.py \
+--data_dir ../data/train/train_tags.json \
+--save_title_feature ../features/train_mul/ \
+--save_alltags_feature ../features/train_mul/ \
+--ngpu 1 \
+--bert_base_uncased False \
+--bert_large_uncased False \
+--xlnet_base_cased False \
+--xlnet_large_cased False \
+--bert_base_multilingual_uncased True \
+--bert_base_multilingual_cased False
